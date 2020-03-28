@@ -3,7 +3,7 @@ Simulating and working with COVID-19 data. Our simulation implements an arguably
 
 ![2D animation](https://github.com/arjunsavel/covid-hacks-2020/blob/master/img/2D.gif)
 
-![1D simulation](https://github.com/arjunsavel/covid-hacks-2020/tree/master/img/1D.png)
+![1D simulation](img/1D.png)
 
 
 # Current to-do
