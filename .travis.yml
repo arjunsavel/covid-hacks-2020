@@ -33,8 +33,8 @@ install:
 script:
   - python3 test_import.py
 
-# env:
-#     - CODECOV_TOKEN="9c990c5a-0b27-4918-a5b6-3d5e10d05c4f"
+env:
+    - CODECOV_TOKEN="44f9ed62-4aea-4415-89fa-cad97cc6e4b9"
 
-# after_success:
-#   - bash <(curl -s https://codecov.io/bash) -t 9c990c5a-0b27-4918-a5b6-3d5e10d05c4f
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t 44f9ed62-4aea-4415-89fa-cad97cc6e4b9
