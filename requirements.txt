@@ -1,0 +1,15 @@
+matplotlib==3.2.1
+ipywidgets==7.5.1
+ipykernel==5.2.0
+ipython==7.13.0
+ipython-genutils==0.2.0
+jupyter-client==6.1.0
+jupyter-core==4.6.3
+nbformat==5.0.4
+nbsphinx==0.5.1
+notebook==6.0.3
+numba==0.48.0
+numpy==1.18.2
+pandas==1.0.3
+tqdm==4.42.1
+xlrd==1.2.0

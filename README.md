@@ -6,10 +6,9 @@ Simulating and working with COVID-19 data. Our simulation implements an arguably
 ![1D simulation](img/1D.png)
 
 
-# Current to-do
-- Simulate transmission during lockdown in U.S.
-  - Arjun
-    - Make naive transmission simulation
-  - Adam
-    - Gather accurate U.S. data: cities, populations, lockdown status, infection rates
-     
+The *.py files contain the scripts necessary to run the simulations in the dimension of your choosing. "Simulation_notebook.ipynb" produces the relevant plots; "Data exploration.ipynb" and "covid_country_data.ipynb" relate to the COVID-19 case data included in this repository; and "performance_testing.ipynb" includes a variety of benchmarks used in the debugging and optimization of the simulation.
+
+Make sure you have the correct dependencies installed — run
+
+     pip install -r requirements.txt
+I would recommend doing so in a fresh conda environment.
