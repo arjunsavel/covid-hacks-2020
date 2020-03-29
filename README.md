@@ -1,4 +1,7 @@
 # covid-hacks-2020
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Documentation Status](https://readthedocs.org/projects/covid-19-simulations/badge/?version=latest)](https://covid-19-simulations.readthedocs.io/en/latest/?badge=latest)
+
+
 Simulating and working with COVID-19 data. Our simulation implements an arguably naive agent-based approach, storing data in pandas DataFrames.
 
 ![2D animation](https://github.com/arjunsavel/covid-hacks-2020/blob/master/img/2D.gif)
