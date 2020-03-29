@@ -1,6 +1,16 @@
-############
+###########################
 About covid-19-simulations
-############
+###########################
+
+.. image:: https://img.shields.io/badge/License-MIT-yellow.svg
+   :target: https://opensource.org/licenses/MIT
+   :alt: MIT License
+
+.. image:: https://readthedocs.org/projects/covid-19-simulations/badge/?version=latest
+   :target: https://covid-19-simulations.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+
 We're seeking to explore problems related to the ongoing COVID-19 pandemic. While an agents-based approach limited by computational tractability will be inherently inaccurate to some degree, we hope that we may be able to gain intuition for questions such as:
 
 - How effective are lockdowns at different points in the spread of disease?
