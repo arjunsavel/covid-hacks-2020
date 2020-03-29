@@ -1,4 +1,5 @@
 # covid-hacks-2020
+[![Build Status](https://travis-ci.com/arjunsavel/covid-hacks-2020?branch=master)](https://travis-ci.com/arjunsavel/covid-hacks-2020) [![codecov](https://codecov.io/gh/arjunsavel/covid-hacks-2020/branch/master/graph/badge.svg?)](https://codecov.io/gh/arjunsavel/covid-hacks-2020)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Documentation Status](https://readthedocs.org/projects/covid-19-simulations/badge/?version=latest)](https://covid-19-simulations.readthedocs.io/en/latest/?badge=latest)
 
 
