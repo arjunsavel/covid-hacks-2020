@@ -1,1 +1,0 @@
-import covid_19_simulations.one_d

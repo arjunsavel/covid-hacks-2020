@@ -28,10 +28,10 @@ jobs:
         - pip3 install --upgrade pip
 install:
   - pip3 install -r requirements.txt
-  # - pip install codecov
+  - pip install codecov
 # command to run tests
 script:
-  - python3 test_import.py
+  - coverage -m unittest discover
 
 env:
     - CODECOV_TOKEN="44f9ed62-4aea-4415-89fa-cad97cc6e4b9"
