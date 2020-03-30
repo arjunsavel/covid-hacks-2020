@@ -2,6 +2,10 @@
 About covid-19-simulations
 ###########################
 
+.. image:: https://travis-ci.com/arjunsavel/covid-hacks-2020.svg?branch=master
+    :target: https://travis-ci.com/arjunsavel/covid-hacks-2020
+
+
 .. image:: https://img.shields.io/badge/License-MIT-yellow.svg
    :target: https://opensource.org/licenses/MIT
    :alt: MIT License

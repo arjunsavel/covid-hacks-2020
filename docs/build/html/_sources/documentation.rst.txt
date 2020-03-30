@@ -4,7 +4,7 @@ API
 zero_d
 -----------------------------
 
-.. automodule:: zero_d
+.. automodule:: covid_19_simulations.zero_d
     :members:
     :undoc-members:
     :show-inheritance:
@@ -12,7 +12,7 @@ zero_d
 one_d
 ---------------------
 
-.. automodule:: one_d
+.. automodule:: covid_19_simulations.one_d
     :members:
     :undoc-members:
     :show-inheritance:
@@ -20,7 +20,7 @@ one_d
 two_d
 ------------------------------
 
-.. automodule:: two_d
+.. automodule:: covid_19_simulations.two_d
     :members:
     :undoc-members:
     :show-inheritance:

@@ -87,9 +87,9 @@
 <p class="caption"><span class="caption-text">Documentation</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#module-zero_d">zero_d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-one_d">one_d</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-two_d">two_d</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-covid_19_simulations.zero_d">zero_d</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-covid_19_simulations.one_d">one_d</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-covid_19_simulations.two_d">two_d</a></li>
 </ul>
 </li>
 </ul>
@@ -158,11 +158,11 @@
             
   <div class="section" id="api">
 <h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="module-zero_d">
-<span id="zero-d"></span><h2>zero_d<a class="headerlink" href="#module-zero_d" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-covid_19_simulations.zero_d">
+<span id="zero-d"></span><h2>zero_d<a class="headerlink" href="#module-covid_19_simulations.zero_d" title="Permalink to this headline">¶</a></h2>
 <dl class="function">
-<dt id="zero_d.infect">
-<code class="descclassname">zero_d.</code><code class="descname">infect</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/zero_d.html#infect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#zero_d.infect" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.zero_d.infect">
+<code class="descclassname">covid_19_simulations.zero_d.</code><code class="descname">infect</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/zero_d.html#infect"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.zero_d.infect" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates a single day of infection. Each infected person</p>
 <p>NOTE: a 0 counts as infected, while a 1 is healthy.</p>
 <dl class="docutils">
@@ -192,8 +192,8 @@ draw from a binomial distribution with a rate of
 </dd></dl>
 
 <dl class="function">
-<dt id="zero_d.simulate">
-<code class="descclassname">zero_d.</code><code class="descname">simulate</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/zero_d.html#simulate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#zero_d.simulate" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.zero_d.simulate">
+<code class="descclassname">covid_19_simulations.zero_d.</code><code class="descname">simulate</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/zero_d.html#simulate"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.zero_d.simulate" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates an infection run.</p>
 <dl class="docutils">
 <dt>Inputs:</dt>
@@ -220,18 +220,18 @@ healthy.</dd>
 </dd></dl>
 
 </div>
-<div class="section" id="module-one_d">
-<span id="one-d"></span><h2>one_d<a class="headerlink" href="#module-one_d" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-covid_19_simulations.one_d">
+<span id="one-d"></span><h2>one_d<a class="headerlink" href="#module-covid_19_simulations.one_d" title="Permalink to this headline">¶</a></h2>
 <dl class="function">
-<dt id="one_d.animate_histogram">
-<code class="descclassname">one_d.</code><code class="descname">animate_histogram</code><span class="sig-paren">(</span><em>df</em>, <em>title</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/one_d.html#animate_histogram"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#one_d.animate_histogram" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.one_d.animate_histogram">
+<code class="descclassname">covid_19_simulations.one_d.</code><code class="descname">animate_histogram</code><span class="sig-paren">(</span><em>df</em>, <em>title</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/one_d.html#animate_histogram"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.one_d.animate_histogram" title="Permalink to this definition">¶</a></dt>
 <dd><p>animates a histogram.</p>
 <p>adapted from <a class="reference external" href="https://matplotlib.org/gallery/animation/animated_histogram.html">https://matplotlib.org/gallery/animation/animated_histogram.html</a></p>
 </dd></dl>
 
 <dl class="function">
-<dt id="one_d.infect1D">
-<code class="descclassname">one_d.</code><code class="descname">infect1D</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em>, <em>thresh</em>, <em>power</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/one_d.html#infect1D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#one_d.infect1D" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.one_d.infect1D">
+<code class="descclassname">covid_19_simulations.one_d.</code><code class="descname">infect1D</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em>, <em>thresh</em>, <em>power</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/one_d.html#infect1D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.one_d.infect1D" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates a single day of infection in 1D.</p>
 <p>NOTE: a 0 counts as infected, while a 1 is healthy.</p>
 <dl class="docutils">
@@ -261,8 +261,8 @@ draw from a binomial distribution with a rate of
 </dd></dl>
 
 <dl class="function">
-<dt id="one_d.simulate1D">
-<code class="descclassname">one_d.</code><code class="descname">simulate1D</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em>, <em>thresh</em>, <em>power</em>, <em>distrib_pop</em>, <em>distrib_infec</em>, <em>kwargs_for_pop={}</em>, <em>kwargs_for_infec={}</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/one_d.html#simulate1D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#one_d.simulate1D" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.one_d.simulate1D">
+<code class="descclassname">covid_19_simulations.one_d.</code><code class="descname">simulate1D</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em>, <em>thresh</em>, <em>power</em>, <em>distrib_pop</em>, <em>distrib_infec</em>, <em>kwargs_for_pop={}</em>, <em>kwargs_for_infec={}</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/one_d.html#simulate1D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.one_d.simulate1D" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates an infection run in 1D.</p>
 <dl class="docutils">
 <dt>Inputs:</dt>
@@ -306,28 +306,28 @@ healthy.</dd>
 </dd></dl>
 
 </div>
-<div class="section" id="module-two_d">
-<span id="two-d"></span><h2>two_d<a class="headerlink" href="#module-two_d" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-covid_19_simulations.two_d">
+<span id="two-d"></span><h2>two_d<a class="headerlink" href="#module-covid_19_simulations.two_d" title="Permalink to this headline">¶</a></h2>
 <dl class="function">
-<dt id="two_d.distance">
-<code class="descclassname">two_d.</code><code class="descname">distance</code><span class="sig-paren">(</span><em>frame</em>, <em>ind1</em>, <em>ind2</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/two_d.html#distance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.distance" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.distance">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">distance</code><span class="sig-paren">(</span><em>frame</em>, <em>ind1</em>, <em>ind2</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#distance"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.distance" title="Permalink to this definition">¶</a></dt>
 <dd><p>Just finding the distance between two rows and their x-y pairs.</p>
 </dd></dl>
 
 <dl class="function">
-<dt id="two_d.do_multiplier">
-<code class="descclassname">two_d.</code><code class="descname">do_multiplier</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>power</em>, <em>thresh</em>, <em>df_sorted</em>, <em>df2D_test</em>, <em>farthest_calc</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/two_d.html#do_multiplier"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.do_multiplier" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.do_multiplier">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">do_multiplier</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>power</em>, <em>thresh</em>, <em>df_sorted</em>, <em>df2D_test</em>, <em>farthest_calc</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#do_multiplier"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.do_multiplier" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="attribute">
-<dt id="two_d.find_first">
-<code class="descclassname">two_d.</code><code class="descname">find_first</code><a class="reference internal" href="_modules/two_d.html#find_first"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.find_first" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.find_first">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">find_first</code><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#find_first"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.find_first" title="Permalink to this definition">¶</a></dt>
 <dd><p>return the index of the first occurence of item in vec</p>
 </dd></dl>
 
 <dl class="function">
-<dt id="two_d.infect2D">
-<code class="descclassname">two_d.</code><code class="descname">infect2D</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em>, <em>thresh</em>, <em>power</em>, <em>df_sorted</em>, <em>farthest_calc</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/two_d.html#infect2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.infect2D" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.infect2D">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">infect2D</code><span class="sig-paren">(</span><em>df</em>, <em>trans_rate</em>, <em>day_name</em>, <em>thresh</em>, <em>power</em>, <em>df_sorted</em>, <em>farthest_calc</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#infect2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.infect2D" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates a single day of infection in 1D.</p>
 <p>NOTE: a 0 counts as infected, while a 1 is healthy.</p>
 <dl class="docutils">
@@ -358,15 +358,15 @@ draw from a binomial distribution with a rate of
 </dd></dl>
 
 <dl class="function">
-<dt id="two_d.initialize_pop_2D">
-<code class="descclassname">two_d.</code><code class="descname">initialize_pop_2D</code><span class="sig-paren">(</span><em>N</em>, <em>distrib</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/two_d.html#initialize_pop_2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.initialize_pop_2D" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.initialize_pop_2D">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">initialize_pop_2D</code><span class="sig-paren">(</span><em>N</em>, <em>distrib</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#initialize_pop_2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.initialize_pop_2D" title="Permalink to this definition">¶</a></dt>
 <dd><p>This will change once we have the U.S. map.</p>
 <p>distrib: size is not a thing again.</p>
 </dd></dl>
 
 <dl class="function">
-<dt id="two_d.simulate2D">
-<code class="descclassname">two_d.</code><code class="descname">simulate2D</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em>, <em>thresh</em>, <em>power</em>, <em>distrib_pop</em>, <em>distrib_infec</em>, <em>kwargs_for_pop={}</em>, <em>kwargs_for_infec={}</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/two_d.html#simulate2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#two_d.simulate2D" title="Permalink to this definition">¶</a></dt>
+<dt id="covid_19_simulations.two_d.simulate2D">
+<code class="descclassname">covid_19_simulations.two_d.</code><code class="descname">simulate2D</code><span class="sig-paren">(</span><em>N</em>, <em>trans_rate</em>, <em>t_steps</em>, <em>N_initial</em>, <em>thresh</em>, <em>power</em>, <em>distrib_pop</em>, <em>distrib_infec</em>, <em>kwargs_for_pop={}</em>, <em>kwargs_for_infec={}</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/covid_19_simulations/two_d.html#simulate2D"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#covid_19_simulations.two_d.simulate2D" title="Permalink to this definition">¶</a></dt>
 <dd><p>Simulates an infection run in 1D.</p>
 <dl class="docutils">
 <dt>Inputs:</dt>
