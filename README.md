@@ -16,3 +16,7 @@ Make sure you have the correct dependencies installed — run
 
      pip install -r requirements.txt
 I would recommend doing so in a fresh conda environment.
+
+
+TODO:
+- use a tree code.
