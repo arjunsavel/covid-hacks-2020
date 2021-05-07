@@ -32,6 +32,7 @@ install:
 # command to run tests
 script:
   - coverage run -m unittest discover
+  - env
 
 env:
     - CODECOV_TOKEN="44f9ed62-4aea-4415-89fa-cad97cc6e4b9"
